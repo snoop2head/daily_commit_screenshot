@@ -9,7 +9,8 @@
 ### 설치 방법
 
 ```bash
-git clone 
+git clone https://github.com/snoop2head/daily_commit_screenshot.git
+cd daily_commit_screenshot/
 pip install -r requirements.txt
 ```
 
@@ -22,7 +23,7 @@ python3 main.py
 혹은
 
 ```bash
-chmod +x ./start.sh
+chmod +x ./start.sh # granting permission for shell script
 ./start.sh
 ```
 
