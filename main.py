@@ -53,7 +53,7 @@ def get_github_screenshot(github_user_id: str):
 
     w, h = im.size
     reducing_pix_top = 130
-    reducing_pix_bottom = 220
+    reducing_pix_bottom = 190
     im.crop((0, reducing_pix_top, w, h - reducing_pix_bottom)).save(
         f"./img/{today_date}_github.png"
     )  # saves new cropped image
